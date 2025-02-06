@@ -1,0 +1,256 @@
+.right{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    
+}
+html{
+    padding-top: 30px;
+    /* padding: 20px 30px;   */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.2);  */
+    background-color: #ADD8E6;
+}
+img{
+    padding-left: 30px;
+} 
+.underline{
+    width: 100%; /* Matches width of links */
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2); /* Faint underline */
+}
+.form1{
+    background-color: #F5F8FA;
+    width: 895px;
+    height: 795px;
+    margin-top: 70px;
+    margin-left: 262px;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 6px;
+    
+    
+}
+.number1{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+}
+.number2{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+}
+.ident label{
+    font-weight: light;
+    display: block;
+    /* margin-top: 4px; */
+    margin-bottom: -25px;
+    
+}
+.ident input{
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+.underlined{
+    width: 70%; /* Matches width of links */
+    height: 1px;
+    background: rgba(177, 174, 174, 0.2); /* Faint underline */
+}
+.button button {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.button p{
+    padding-left: 90px;
+    /* text-align: justify; */
+
+}
+.help{
+    font-weight: bold;
+}
+.one h2{
+    border-bottom: 1px solid rgba(177, 174, 174, 0.2); /* Faint line */
+    padding-bottom: 15px;
+}
+.one form{
+    border-bottom: 1px solid rgba(177, 174, 174, 0.2); /* Faint line */
+    padding-bottom: 10px;
+}
+.one{
+    border: 1px solid #F5F8FA;
+}
+.card {
+    width: 100%;
+    max-width: 350px; /* Adjust width as needed */
+    margin:auto;
+    font-family: Arial, sans-serif;
+    padding-right: 600px;
+}
+
+.card label {
+    font-weight: light;
+    display: block;
+    margin-bottom: -25px;
+}
+
+.card input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 2px; /* Space between characters */
+    /* margin-bottom: 30px; */
+}
+
+
+
+
+    
+/* .sameline{
+    display: flex;
+    gap: 40px;
+}   */
+/* .sameline label {
+    flex: 1;
+} */
+
+/* .sameline input {
+    flex: 2; /* Allows input field to take more space */
+    /* padding: 5px; */ 
+    /* border: 1px solid rgba(0, 0, 0, 0.2); /* Light border */
+    /* outline: none; */
+
+
+.second{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F8FA;
+    width: 312px;
+    height: 785px;
+    margin-top: -805px;
+    margin-left: 845px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    
+}
+
+.price {
+    font-size: 35px; /* Adjust size */
+  
+    
+}
+
+.dollar-sign {
+    font-size: 14px; /* Smaller size for $ */
+    vertical-align: top; /* Aligns it slightly higher */
+    
+}
+
+.per-year {
+    font-size: 14px; /* Smaller text for /yr */
+   
+}
+.second p {
+    margin: 5px 0; /* Reduce space between paragraphs */
+    line-height: 2.0; /* Adjust line spacing */
+}
+.list ul{
+    margin: 5px 0;
+    line-height: 2.0;
+    padding-top: 20px ;
+
+}
+.need p{
+    margin: 5px 0;
+    line-height: 1.2;
+    padding-top: 10px ;
+
+}
+.switch{
+    border-bottom: 1px solid rgba(248, 245, 245, 0.2); /* Faint line */
+    padding-bottom: 30px;
+}
+.ftp p{
+    margin: 5px 0;
+    line-height: 1.2;
+    padding-top: 30px ;
+
+}
+.pic{
+    display: flex;
+    gap: 10px;
+    padding-right: 100px;
+    margin-left: -10px;
+}
+.picimg{
+    width: 40px;
+    height: 40px;
+    /* object-fit: cover; */
+    padding-right: 0px;
+}
+.picname{
+    font-size: 14px;
+}
+.power p{
+    margin-left: 140px;
+    background-color: gray;
+    width: 20%;
+    max-width: 200px;
+    padding: 3px 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+.power span{
+    font-size: larger;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.terms{
+    color: blue;
+}
+
+
+
+
+
+    /* top: -139px;
+    left: -101px;
+gap: 0px;
+opacity: 0px;
+
+
+
+
+   
+/* .all{
+    /* padding: 10px 30px;  */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.2);  */ 
